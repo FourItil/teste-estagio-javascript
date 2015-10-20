@@ -56,6 +56,17 @@ Após instalar e configurar o Git siga este tutorial: [Try Git](https://try.gith
 
 O processo de fork em linhas gerais vai clonar este projeto da FourItil para a sua conta. Isto permitirá que você trabalhe na resolução do(s) problema(s) e quando finalizado, nos envie para avaliação. De um fork neste repositório clicando no botão **Fork**, em seguida selecione seu perfil e pronto.
 
+![clicando em "Fork"](https://github.com/FourItil/teste-estagio-javascript/blob/master/images/fork-1.png?raw=true)
+Fork passo 1 - clicando em "Fork"
+
+
+![selecionando seu perfil](https://github.com/FourItil/teste-estagio-javascript/blob/master/images/fork-2.png?raw=true)
+Fork passo 2 - selecionando seu perfil
+
+
+Pronto, agora que você já tem este teste em seu perfil, basta trabalhar na resolução do mesmo e enviar dentro do prazo estabelecido.
+
+
 
 
 
