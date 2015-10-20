@@ -4,20 +4,6 @@
 
 		<title>Teste para estágio em FourItil</title>
 
-		<!-- Problema 1: resolver o encoding da página.
-		Dica: O encoding serve para que caracteres especiais como acentuações sejam visíveis de forma correta
- -->
-
- 		<!-- Problema 2: Incluir o arquivo javascript.
- 		Dica: O arquivo javascript deve estar presente para que algumas funcionalidades dinâmicas estejam presentes na página de teste (index.html) -->
-
- 		Problema 3: O javascript incluído possui alguns erros, corrija-os
- 		Dica: Alguns destes erros causam mau funcionamento da página web e devem ser corrigidos, leia atentamente os erros no navegador através do console do desenvolvedor
-
-
-
-		<script src="main.js"></script>
-
 		<style>
 			.left{
 				width: 20%;
@@ -25,6 +11,7 @@
 			}
 			.center{
 				width: 60%;
+				float: left;
 			}
 			.right{
 				width: 20%;
@@ -35,12 +22,20 @@
 
 	</head>
 
-
 	<body>
 		<div class="left">&nbsp;</div>
 		
 		<div class="center">
-			Este texto no meio
+			
+			<label>Digite seu nome no campo abaixo</label>
+			<br />
+			<input type="text" id="campo-nome">
+
+			<br />
+			<br />
+			O nome informado é: <span id="nome-digitado"></span>
+			<br />
+			O nome informado possui <strong><span id="quantidade-caracteres">x<span></strong> caracteres
 		</div>
 
 		<div class="right">&nbsp;</div>
