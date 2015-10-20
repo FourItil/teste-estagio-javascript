@@ -1,44 +1,37 @@
-<html>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Teste para estágio em FourItil</title>
 
-	<head>
+	<style>
+		.center{
+			width: 60%;
+			margin: 0 auto;
+		}
 
-		<title>Teste para estágio em FourItil</title>
+		label {
+			display: block;
+		}
+	</style>
+</head>
 
-		<style>
-			.left{
-				width: 20%;
-				float: left;
-			}
-			.center{
-				width: 60%;
-				float: left;
-			}
-			.right{
-				width: 20%;
-				float: right;
-			}
+<body>
+	<div class="center">
+		<label>Digite seu nome no campo abaixo</label>
+		<input type="text" id="campo-nome">
 
-		</style>
-
-	</head>
-
-	<body>
-		<div class="left">&nbsp;</div>
-		
-		<div class="center">
-			
-			<label>Digite seu nome no campo abaixo</label>
-			<br />
-			<input type="text" id="campo-nome">
-
-			<br />
-			<br />
+		<p>
 			O nome informado é: <span id="nome-digitado"></span>
-			<br />
-			O nome informado possui <strong><span id="quantidade-caracteres">x<span></strong> caracteres
-		</div>
+		</p>
 
-		<div class="right">&nbsp;</div>
-	</body>
+		<p>
+			O nome informado possui
+			<strong id="quantidade-caracteres">x</strong> caracteres
+		</p>
+	</div>
 
+	<script src="javascript/jquery.js"></script>
+	<script src="javascript/main.js"></script>
+</body>
 </html>
